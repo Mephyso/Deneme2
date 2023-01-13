@@ -7,5 +7,7 @@ public class öner {
         System.out.println("How are you");
 
         System.out.println("see you tomorrow");
+
+        System.out.println("bye");
     }
 }
