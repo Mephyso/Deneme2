@@ -1,0 +1,49 @@
+package myNotes02;
+
+public class Swap2Variables {
+
+
+        public static void main(String[] args) {
+
+            int x = 10, y = 15;
+
+            System.out.println("-----Before Swap-----");
+            System.out.println("\t\tx = " + x);
+            System.out.println("\t\ty = " + y);
+
+            int z = x;
+            x = y;
+            y = z + z;
+
+
+            System.out.println("------After swap------");
+            System.out.println("\t\tx = " + x);
+            System.out.println("\t\ty = " + y);
+
+            System.out.println("--------------------------------------------------------");
+
+
+                    //median number is 'the middle number' in an order of bunch of numbers
+                    int a = 30,
+                            b = 15,
+                            c = 20;// order of numbers; 15-20-30
+
+                    String result = "";
+
+                    if(a<b && b<c || a>b && b>c){
+                        result = b+" is median number";
+                    }
+                    if(a<c && c<b || a>c && c>b){
+                        result = c+" is median number";
+                    }
+                    if(c<a && a<b || c>a && a>b){
+                        result = a+" is median number";
+                    }
+                    System.out.println(result);
+            System.out.println("----------------------------------------------------------------");
+
+
+
+
+                }
+            }
